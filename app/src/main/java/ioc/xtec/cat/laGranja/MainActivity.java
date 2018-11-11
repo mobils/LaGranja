@@ -68,4 +68,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //TODO: Faltaria implementar el mètode onResume i que la música s'aturi si s'obre una altra aplicació.
+
 }

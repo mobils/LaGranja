@@ -2,25 +2,27 @@ package ioc.xtec.cat.laGranja;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 
-public class MainActivity extends ActionBarActivity{
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
     }
 //mètode onClick
     public void onClickImatgeAnimal(View v) {
         /*
         Relacionem l'animació amb la imatge clicada
          */
-        Animation animacio = AnimationUtils.loadAnimation(this, R.anim.girarescalar);
+        Animation animacio = AnimationUtils.loadAnimation(this, R.anim.mover);
         v.startAnimation(animacio);
 
 
@@ -64,4 +66,6 @@ public class MainActivity extends ActionBarActivity{
             }
         });
     }
+
+
 }

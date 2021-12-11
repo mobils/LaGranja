@@ -1,8 +1,15 @@
 <LinearLayout xmlns:android ="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animacions i sons"
+        android:textSize="40sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,19 +23,15 @@
             android:background="#C000C0"
             android:contentDescription="@string/descripcio"
             android:padding="3dp"
-            android:clickable="true"
-            android:onClick="onClickImatgeAnimal"
             android:src="@drawable/anec" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/cat"
+            android:src="@drawable/gat"
             android:background="#C0C000"
             android:padding="3dp"
-            android:clickable="true"
-            android:onClick="onClickImatgeAnimal"
             android:contentDescription="@string/descripcio" />
 
         <ImageView
@@ -38,8 +41,6 @@
             android:src="@drawable/cavall"
             android:background="#00C0C0"
             android:padding="3dp"
-            android:clickable="true"
-            android:onClick="onClickImatgeAnimal"
             android:contentDescription="@string/descripcio" />
 
     </LinearLayout>
@@ -53,11 +54,9 @@
             android:id="@+id/imageView4"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/gos"
+            app:srcCompat="@drawable/gos"
             android:background="#00C000"
             android:padding="3dp"
-            android:clickable="true"
-            android:onClick="onClickImatgeAnimal"
             android:contentDescription="@string/descripcio" />
 
         <ImageView
@@ -67,8 +66,6 @@
             android:src="@drawable/porc"
             android:background="#0000C0"
             android:padding="3dp"
-            android:clickable="true"
-            android:onClick="onClickImatgeAnimal"
             android:contentDescription="@string/descripcio" />
 
         <ImageView
@@ -78,8 +75,6 @@
             android:src="@drawable/vaca"
             android:background="#C00000"
             android:padding="3dp"
-            android:clickable="true"
-            android:onClick="onClickImatgeAnimal"
             android:contentDescription="@string/descripcio" />
     </LinearLayout>
 

@@ -2,36 +2,48 @@ package ioc.xtec.cat.laGranja;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        findViewById(R.id.imageView1).setOnClickListener(this);
+        findViewById(R.id.imageView2).setOnClickListener(this);
+        findViewById(R.id.imageView3).setOnClickListener(this);
+        findViewById(R.id.imageView4).setOnClickListener(this);
+        findViewById(R.id.imageView5).setOnClickListener(this);
+        findViewById(R.id.imageView6).setOnClickListener(this);
 
     }
-//mètode onClick
-    public void onClickImatgeAnimal(View v) {
+    @Override
+    public void onClick(View view) {
         /*
         Relacionem l'animació amb la imatge clicada
          */
         Animation animacio = AnimationUtils.loadAnimation(this, R.anim.mover);
-        v.startAnimation(animacio);
+        view.startAnimation(animacio);
 
 
 
 
         /*Reproduim el so
          */
+        /* Sons descarregats de:
+        https://freesound.org/people/peawormsworth/sounds/174472/
+        https://freesound.org/people/rafash1306/sounds/404238/
+
+         */
         MediaPlayer so = null;
-        switch (v.getId()) {
+        switch (view.getId()) {
             case R.id.imageView1:
                 so = MediaPlayer.create(this, R.raw.anec);
                 break;
@@ -68,6 +80,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //TODO: Faltaria implementar el mètode onResume i que la música s'aturi si s'obre una altra aplicació.
+
+    //TODO: Faltaria implementar el mètode onResume i que la música s'aturi si s'obre
+    // una altra aplicació.
 
 }

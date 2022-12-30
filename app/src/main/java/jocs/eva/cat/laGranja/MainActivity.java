@@ -1,10 +1,12 @@
 package jocs.eva.cat.laGranja;
 
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.VideoView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
@@ -23,6 +25,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.imageView4).setOnClickListener(this);
         findViewById(R.id.imageView5).setOnClickListener(this);
         findViewById(R.id.imageView6).setOnClickListener(this);
+
+        VideoView mVideoView = findViewById(R.id.video);
+
+        Uri videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.findtheball);
+        mVideoView.setVideoURI(videoUri);
+        mVideoView.start();
+
 
         //TODO: Exercici 1: Afegeix 3 imatges més amb 3 sons i diferents animacions
         // per ampliar l'exercici.
@@ -78,11 +87,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onCompletion(MediaPlayer mp) {
-                mp.release();
+
+                mp.release();  //Important per alliberar recursos
             }
         });
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        //TODO: Hauriem de parar la música i tornar a  inicialitzar-la al onStart
+        //mp.stop();
+    }
+
+    //TODO: Faltaria implementar el mètode onResume i que la música s'aturi si s'obre una altra aplicació.
 
     //TODO: EXERCICI 3: Afegeix una nova activitat com haviem fet el About on s'expliqui una
     // frase sobre el joc, autors, etc. I que s'obre des d'un menu o amb un botó

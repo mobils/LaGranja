@@ -63,7 +63,7 @@ public class PianoFragment extends Fragment {
 
         //TODO: Exercici 4: Ja tens creat un disseny de piano, importa els fitxers dels sons i fes que soni
         // Has d'inflar el fragment on vulguis, o al MainActivity o en un altre.
-        // Decideix si vols que les tecles del piano sonin quan cliques o quan passes per sobre (onHover)
+        // Decideix si vols que les tecles del piano sonin quan cliques o quan passes per sobre (onHoverListener)
 
     }
 }

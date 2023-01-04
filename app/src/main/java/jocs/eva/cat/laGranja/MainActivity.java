@@ -26,12 +26,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.imageView5).setOnClickListener(this);
         findViewById(R.id.imageView6).setOnClickListener(this);
 
+        /* //El video està comentat fins que millorem el disseny i li reservem un espai més gran
         VideoView mVideoView = findViewById(R.id.video);
 
         Uri videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.findtheball);
         mVideoView.setVideoURI(videoUri);
         mVideoView.start();
-
+*/
 
         //TODO: Exercici 1: Afegeix 3 imatges més amb 3 sons i diferents animacions
         // per ampliar l'exercici.

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LaGranja.iml" filepath="$PROJECT_DIR$/.idea/modules/LaGranja.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LaGranja.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LaGranja.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LaGranja.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LaGranja.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LaGranja.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LaGranja.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LaGranja.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LaGranja.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LaGranja_solucio.iml" filepath="$PROJECT_DIR$/.idea/modules/LaGranja_solucio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LaGranja_solucio.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LaGranja_solucio.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LaGranja_solucio.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LaGranja_solucio.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LaGranja_solucio.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LaGranja_solucio.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LaGranja_solucio.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LaGranja_solucio.app.unitTest.iml" />
     </modules>
   </component>
 </project>

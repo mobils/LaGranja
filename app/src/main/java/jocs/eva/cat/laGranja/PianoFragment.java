@@ -83,16 +83,7 @@ public class PianoFragment extends Fragment implements  View.OnTouchListener, Vi
 
     }
 
-    @Override
-    public boolean onHover(View v, MotionEvent event) {
-        /*Només un animation per view, si es volen fer més, afegirles al xml dins un <selector>*/
 
-        Animation animation = AnimationUtils.loadAnimation(getActivity().getApplicationContext(), R.anim.rota);
-
-        //v.startAnimation(animation);
-        //bt_do.startAnimation(animation);
-        return false;
-    }
 
     @Override
     public void onClick(View view) {

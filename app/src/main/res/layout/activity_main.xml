@@ -23,7 +23,6 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="#C000C0"
-            android:contentDescription="@string/descripcio"
             android:padding="3dp"
             android:src="@drawable/anec" />
 
@@ -34,8 +33,7 @@
             android:src="@drawable/gat"
             android:background="#C0C000"
             android:padding="3dp"
-            android:contentDescription="@string/descripcio" />
-
+          />
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="100dp"
@@ -43,8 +41,7 @@
             android:src="@drawable/cavall"
             android:background="#00C0C0"
             android:padding="3dp"
-            android:contentDescription="@string/descripcio" />
-
+        />
     </LinearLayout>
 
     <LinearLayout

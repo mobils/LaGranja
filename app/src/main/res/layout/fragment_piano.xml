@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
             android:width="60dp"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
-            android:stateListAnimator="@null"
+
             android:text="@string/nota_do"
             android:textSize="30sp"
             style="@style/Widget.AppCompat.Button.Borderless"/>
@@ -54,7 +54,7 @@
             android:width="20dp"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
-            android:stateListAnimator="@null"
+
             android:text="@string/re"
             android:textSize="30dp"
             style="@style/Widget.AppCompat.Button.Borderless"/>
@@ -67,7 +67,7 @@
             android:width="50dp"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
-            android:stateListAnimator="@null"
+
             android:text="MI"
             android:textSize="30dp"
             style="@style/Widget.AppCompat.Button.Borderless"/>
@@ -93,7 +93,7 @@
             android:width="50dp"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
-            android:stateListAnimator="@null"
+
             android:text="SOL"
             android:textSize="30dp"
             style="@style/Widget.AppCompat.Button.Borderless"/>
@@ -106,7 +106,6 @@
             android:width="50dp"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
-            android:stateListAnimator="@null"
             android:text="LA"
             android:textSize="30sp"
             style="@style/Widget.AppCompat.Button.Borderless"/>
@@ -119,9 +118,8 @@
             android:width="80dp"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
-            android:stateListAnimator="@null"
             android:text="SI"
-            android:textSize="30dp"
+            android:textSize="30sp"
             style="@style/Widget.AppCompat.Button.Borderless"/>
 
         <Button
@@ -132,7 +130,7 @@
             android:width="80dp"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
-            android:stateListAnimator="@null"
+
             android:text="DO"
             android:textSize="30sp"
             style="@style/Widget.AppCompat.Button.Borderless"/>

@@ -11,7 +11,7 @@
     android:orientation="vertical"
     >
 
-    <LinearLayout
+    <!--LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="3">
@@ -24,7 +24,7 @@
             android:clickable="false"
             android:enabled="false"
             android:background="#FFEBEE"/>
-    </LinearLayout>
+    </LinearLayout-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
             android:id="@+id/vw_bt_do"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:width="60dp"
+            android:width="@dimen/ample_nota"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
 
@@ -49,9 +49,9 @@
         <Button
             android:id="@+id/vw_bt_re"
             android:layout_marginLeft="2dp"
-            android:layout_width="70dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:width="20dp"
+            android:width="@dimen/ample_nota"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
 
@@ -62,9 +62,9 @@
         <Button
             android:id="@+id/vw_bt_mi"
             android:layout_marginLeft="2dp"
-            android:layout_width="70dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:width="50dp"
+            android:width="@dimen/ample_nota"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
 
@@ -75,9 +75,9 @@
         <Button
             android:id="@+id/vw_bt_fa"
             android:layout_marginLeft="2dp"
-            android:layout_width="70dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:width="50dp"
+            android:width="@dimen/ample_nota"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
             android:stateListAnimator="@null"
@@ -88,9 +88,9 @@
         <Button
             android:id="@+id/vw_bt_sol"
             android:layout_marginStart="2dp"
-            android:layout_width="70dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:width="50dp"
+            android:width="@dimen/ample_nota"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
 
@@ -101,9 +101,9 @@
         <Button
             android:id="@+id/vw_bt_la"
             android:layout_marginLeft="2dp"
-            android:layout_width="70dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:width="50dp"
+            android:width="@dimen/ample_nota"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
             android:text="LA"
@@ -113,9 +113,9 @@
         <Button
             android:id="@+id/vw_bt_si"
             android:layout_marginLeft="2dp"
-            android:layout_width="70dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:width="80dp"
+            android:width="@dimen/ample_nota"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
             android:text="SI"
@@ -125,9 +125,9 @@
         <Button
             android:id="@+id/vw_bt_do2"
             android:layout_marginStart="2dp"
-            android:layout_width="70dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:width="80dp"
+            android:width="@dimen/ample_nota"
             android:textColor="@android:color/white"
             android:background="@drawable/bk_boton_plano"
 
